@@ -1,13 +1,16 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status.bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screen/login.css";
+
 body {
     font-family: 'Gaegu', cursive;
 }
 
 
-.status-bar {
-    display: flex;
-    justify-content: space-between;
-}
 
-.status-bar__column:first-child span {
-    margin-right: 5px;
-}
