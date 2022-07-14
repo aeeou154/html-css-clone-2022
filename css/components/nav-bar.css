@@ -17,4 +17,33 @@
 
 .nav__link {
     color: #2F363E;
+    position: relative;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__notification2 {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
 }

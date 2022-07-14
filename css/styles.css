@@ -1,15 +1,18 @@
 @import "reset.css";
 @import "variables.css";
 
+
 /* Components */
 @import "components/status.bar.css";
 @import "components/nav-bar.css";
-
+@import "components/screen-header.css";
+@import "components/user-components.css";
 /* Screens */
 @import "screen/login.css";
-
+@import "screen/friends.css";
 body {
     font-family: 'Gaegu', cursive;
+    color: #2F363E;
 }
 
 
