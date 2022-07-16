@@ -3,6 +3,11 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
 }
 .status-bar__column{
     width: 33%;
@@ -21,6 +26,10 @@
     display: flex;
     justify-content:flex-end;
     align-items: center;
+    
+}
+.status-bar__column:nth-child(3) span{
+    margin-left: 5px;
 }
 
 .status-bar__column .fa-solid fa-battery-three-quarters {

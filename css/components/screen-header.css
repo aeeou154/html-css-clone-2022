@@ -4,6 +4,7 @@
     align-items: center;
     padding: var(--horizontal-space);
     margin-bottom: 15px;
+    
 }
 
 .screen-header__title{
@@ -19,5 +20,18 @@
 .screen-header__icons  {
     display: flex;
 
+}
+
+@keyframes roateGear{
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover{
+    animation: roateGear 1s linear infinite;
 }
 

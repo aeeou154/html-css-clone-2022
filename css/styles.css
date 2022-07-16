@@ -9,11 +9,17 @@
 @import "components/user-components.css";
 @import "components/badge.css";
 @import "components/icon-raw.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 /* Screens */
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/find.css";
 @import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+
+
 body {
     font-family: 'Gaegu', cursive;
     color: #2F363E;
